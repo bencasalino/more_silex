@@ -1,0 +1,468 @@
+Aug  6 09:31:01 iMac distnoted[243] <Warning>: # distnote server agent  absolute time: 27.194231653   civil time: Thu Aug  6 09:31:01 2015   pid: 243 uid: 201  root: no
+Aug  6 09:31:01 iMac otherbsd[242] <Error>: Failed to bootstrap agent: path = /Users/Guest/Library/LaunchAgents, error = 2: No such file or directory
+Aug  6 09:31:01 iMac otherbsd[242] <Error>: Could not copy LoginItems URL.
+Aug  6 09:31:01 iMac UserAccountUpdater[246] <Info>: Apple Upgrade: NO
+Aug  6 09:31:01 iMac UserEventAgent[241] <Debug>: PrinterMonitor: myAddRef:0x7ffac3c2d0e0 (1)
+Aug  6 09:31:01 iMac UserEventAgent[241] <Debug>: PrinterMonitor: myRelease:0x7ffac3c2d0e0 (2)
+Aug  6 09:31:01 iMac UserEventAgent[241] <Debug>: PrinterMonitor: myInstance:0x7ffac3c2d0e0
+Aug  6 09:31:01 iMac UserEventAgent[241] <Debug>: PrinterMonitor: printer_added (1)
+Aug  6 09:31:01 iMac UserEventAgent[241] <Debug>: PrinterMonitor: remove_printer (1)
+Aug  6 09:31:01 iMac UserEventAgent[241] <Debug>: PrinterMonitor: registeringForNotification:0x7ffac3c2d0e0...
+Aug  6 09:31:01 iMac UserEventAgent[241] <Debug>: processNetworkInterface() failed, no interface type
+Aug  6 09:31:01 --- last message repeated 1 time ---
+Aug  6 09:31:01 iMac UserEventAgent[241] <Error>: Failed to copy info dictionary for bundle /System/Library/UserEventPlugins/alfUIplugin.plugin
+Aug  6 09:31:01 iMac pboard[248] <Warning>: Attempt to unlink previous shared memory during startup returned an error.  Continuing...
+Aug  6 09:31:01 iMac UserEventAgent[241] <Notice>: user agent networkd: built May 12 2015 20:37:54
+Aug  6 09:31:01 iMac UserEventAgent[241] <Error>: received an unknown event from daemon
+Aug  6 09:31:01 iMac compatchecker[249] <Error>: Loading incompatible app list from: /System/Library/PrivateFrameworks/SystemMigration.framework/Resources/MigrationIncompatibleApplicationsList.plist
+Aug  6 09:31:01 iMac compatchecker[249] <Error>: Parsing incompatible app list version: 10.10.122
+Aug  6 09:31:01 iMac UserAccountUpdater[246] <Info>: FixupMacBuddyWrittenPrefs 1
+Aug  6 09:31:02 iMac secinitd[253] <Notice>: UID[201]: cache loaded: /System/Library/Caches/com.apple.app-sandbox-cache.plist
+Aug  6 09:31:02 iMac UserAccountUpdater[246] <Error>: Launching keychain migrator
+Aug  6 09:31:02 iMac KeychainMigrator[255] <Warning>: STARTING editKeyACLs
+Aug  6 09:31:02 iMac UserAccountUpdater[246] <Error>: Blocking completion of UAU on keychain migrator
+Aug  6 09:31:02 iMac KeychainMigrator[255] <Warning>: ENDING editKeyACLs
+Aug  6 09:31:02 iMac KeychainMigrator[255] <Warning>: Migration complete, error count=0
+Aug  6 09:31:02 iMac UserAccountUpdater[246] <Debug>: CoreServices logging is enabled,
+Aug  6 09:31:02 iMac UserAccountUpdater[246] <Notice>: SFL Favorites initialized.
+Aug  6 09:31:02 iMac iCloudAccountsMigrator[256] <Warning>: iCloudAccountMigrator: Initiating migrate accounts: V: 0, D: 0
+Aug  6 09:31:02 iMac iCloudAccountsMigrator[256] <Warning>: iCloudAccountMigrator: No migrated accounts, nothing to do!
+Aug  6 09:31:02 iMac UserAccountUpdater[246] <Error>: Keychain migrator exited with status: 0
+Aug  6 09:31:02 iMac UserAccountUpdater[246] <Error>: commerce: _copyPreferences (com.apple.storeagent, com.apple.commerce, kCFPreferencesCurrentUser, kCFPreferencesAnyHost)
+Aug  6 09:31:02 iMac UserAccountUpdater[246] <Error>: commerce: Did not upgrade (com.apple.storeagent does not exist or empty)
+Aug  6 09:31:02 iMac UserAccountUpdater[246] <Info>: Clearing ApplePressAndHoldEnabled preference
+Aug  6 09:31:02 iMac UserAccountUpdater[246] <Warning>: Starting MRTv2
+Aug  6 09:31:02 iMac UserAccountUpdater[246] <Warning>: Completed UAU. Found 0 files, Removed 0 files
+Aug  6 09:31:02 iMac mdmclient[261] <Warning>: [Agent:201] Processing pre-login MDM check for: 201
+Aug  6 09:31:02 iMac mdmclient[261] <Warning>: [Agent:201] Current user is not bound by the MDM configuration: '<Payload: Mobile Device Management (com.meraki.sm.mdm_payload:BE33DBB6-6A9B-4B7E-A8A6-9A6FEE9BD618) from profile: Meraki Management (com.meraki.sm.mdm:e4caeed0-1a0d-0133-a9e6-6d6572616b69)>' because it was installed by a different user on the system.
+Aug  6 09:31:02 iMac SystemUIServer[264] <Debug>: LSExceptions [0x6000000a82e0] loaded
+Aug  6 09:31:02 iMac Dock[262] <Debug>: LSExceptions [0x6080002a30c0] loaded
+Aug  6 09:31:02 iMac Finder[265] <Debug>: LSExceptions [0x6100000b1b80] loaded
+Aug  6 09:31:02 iMac sharingd[272] <Notice>: 09:31:02.417 : Starting Up...
+Aug  6 09:31:02 iMac sharingd[272] <Notice>: 09:31:02.423 : Device Capabilities (Handoff:YES, Instant Hotspot:YES, AirDrop:YES, Legacy AirDrop:YES, Remote Disc:YES)
+Aug  6 09:31:02 iMac AirPlayUIAgent[273] <Debug>: LSExceptions [0x6080000a21c0] loaded
+Aug  6 09:31:02 iMac bird[278] <Notice>: starting bird
+Aug  6 09:31:02 iMac bird[278] <Notice>: Power level really becomes good
+Aug  6 09:31:02 iMac bird[278] <Notice>: Network reachability changed to reachable [R -------]
+Aug  6 09:31:02 iMac fontd[281] <Error>: Failed to open read-only database, regenerating DB
+Aug  6 09:31:03 iMac CalendarAgent[252] <Warning>: Could not find Meta Data for persistent Store: Error Domain=NSCocoaErrorDomain Code=260 "The file “Calendar Cache” couldn’t be opened because there is no such file." UserInfo=0x7fa53b514b30 {NSURL=file:///Users/Guest/Library/Calendars/Calendar%20Cache}
+Aug  6 09:31:03 iMac CalendarAgent[252] <Notice>: [com.apple.calendar.store.log.caldav.queue] [ ***** context WILL SAVE notification -[CalDAVChangeRequestsProducer managedObjectContextWillSave:] *****]
+Aug  6 09:31:03 iMac identityservicesd[279] <Warning>: [Warning] DeviceHeartbeat - Failed loading device heartbeat data from keychain -25300
+Aug  6 09:31:03 iMac DMProxy[286] <Warning>: AMBD Services: connection interrupted: com.apple.AmbientDisplayAgent (Connection interrupted)
+Aug  6 09:31:03 iMac IMDPersistenceAgent[288] <Notice>: SACShieldWindowShowing:925: ERROR: NULL response
+Aug  6 09:31:04 iMac identityservicesd[279] <Warning>: [Warning] Setting up a new database at path /Users/Guest/Library/IdentityServices/ids.db.
+Aug  6 09:31:04 iMac CalendarAgent[252] <Notice>: [com.apple.calendar.store.log.caldav.queue] [ ***** context WILL SAVE notification -[CalDAVChangeRequestsProducer managedObjectContextWillSave:] *****]
+Aug  6 09:31:04 iMac identityservicesd[279] <Warning>: <IMMacNotificationCenterManager: 0x7fca98733970>: Configuring notification center for identifier: com.apple.iChat   topics: (
+	)
+Aug  6 09:31:04 iMac IMDPersistenceAgent[288] <Warning>: [Warning] Setting up a new database at path /Users/Guest/Library/Messages/chat.db.
+Aug  6 09:31:04 iMac identityservicesd[279] <Warning>: <IMMacNotificationCenterManager: 0x7fca98733970>:    NC Disabled: NO
+Aug  6 09:31:04 iMac identityservicesd[279] <Warning>: <IMMacNotificationCenterManager: 0x7fca98733970>:   DND Enabled: NO
+Aug  6 09:31:04 iMac identityservicesd[279] <Warning>: <IMMacNotificationCenterManager: 0x7fca98733970>: Updating enabled: YES   (Topics: (
+	))
+Aug  6 09:31:04 iMac CalendarAgent[252] <Notice>: [com.apple.calendar.store.log.caldav.queue] [ ***** context WILL SAVE notification -[CalDAVChangeRequestsProducer managedObjectContextWillSave:] *****]
+Aug  6 09:31:04 iMac sharingd[272] <Warning>: [Warning] Services all disappeared, removing all dependent devices
+Aug  6 09:31:04 iMac sharingd[272] <Error>: 09:31:04.155 : SDActivityPayloadManager::loadPersistedKeyRequests Clearing store as format is invalid (null)
+Aug  6 09:31:04 iMac CalendarAgent[252] <Notice>: [com.apple.calendar.store.log.caldav.queue] [ ***** context WILL SAVE notification -[CalDAVChangeRequestsProducer managedObjectContextWillSave:] *****]
+Aug  6 09:31:04 iMac CalendarAgent[252] <Notice>: [com.apple.calendar.store.log.accounts] [Processing accounts marked for deletion]
+Aug  6 09:31:04 iMac imagent[287] <Warning>: [Warning] Services all disappeared, removing all dependent devices
+Aug  6 09:31:04 iMac callservicesd[283] <Warning>: [Warning] Services all disappeared, removing all dependent devices
+Aug  6 09:31:04 iMac imagent[287] <Warning>: [Warning] SMSServiceSession: Error no IDS Service available for SMS Relay
+Aug  6 09:31:04 --- last message repeated 1 time ---
+Aug  6 09:31:04 iMac imagent[287] <Warning>: [Warning] IMDAccount: incoming 'defaults' is not a dictionary, (null), (null)
+Aug  6 09:31:04 --- last message repeated 1 time ---
+Aug  6 09:31:04 iMac CalendarAgent[252] <Notice>: [com.apple.calendar.iaplugin.log.CalInternetAccountsPlugin] [CalInternetAccountsPlugin initializing.]
+Aug  6 09:31:04 iMac sharingd[272] <Warning>: 09:31:04.297 : No delegate parameters from account, account exists = NO
+Aug  6 09:31:04 iMac sharingd[272] <Notice>: 09:31:04.297 : Tethering: Identifier needs fixing
+Aug  6 09:31:04 iMac sharingd[272] <Warning>: 09:31:04.298 : No delegate parameters from account, account exists = NO
+Aug  6 09:31:04 iMac sharingd[272] <Warning>: 09:31:04.300 : No delegate parameters from account, account exists = NO
+Aug  6 09:31:04 iMac IMRemoteURLConnectionAgent[290] <Notice>: SACShieldWindowShowing:925: ERROR: NULL response
+Aug  6 09:31:04 iMac CalendarAgent[252] <Warning>: Exception fetching ABCDContact in context <ABManagedObjectContext: 0x7fa53b722b80>: keypath birthdayComponents not found in entity <NSSQLEntity ABCDContact id=21>
+Aug  6 09:31:04 iMac CalendarAgent[252] <Warning>: Error fetching ABCDContact in context <ABManagedObjectContext: 0x7fa53b722b80>: (null) (null)
+Aug  6 09:31:04 iMac callservicesd[283] <Warning>: Failed to get the bundle id
+Aug  6 09:31:05 iMac fmfd[293] <Warning>: Initialized sandbox
+Aug  6 09:31:05 iMac com.apple.iCloudHelper[296] <Error>: objc[296]: Class FALogging is implemented in both /System/Library/PrivateFrameworks/FamilyCircle.framework/Versions/A/FamilyCircle and /System/Library/PrivateFrameworks/FamilyNotification.framework/Versions/A/FamilyNotification. One of the two will be used. Which one is undefined.
+Aug  6 09:31:05 iMac CalNCService[291] <Warning>: [com.apple.calendar.agentLink.xpc] [CalAgentLink set exported object called twice (
+		0   CalendarAgentLink                   0x00007fff94e40e1c -[CalAgentLink setExportedObject:] + 128
+		1   CalendarPersistence                 0x00007fff950d3bd3 +[CalPersistence _startCoreDataXPCServer:] + 263
+		2   CalendarPersistence                 0x00007fff94efe883 +[CalPersistence setupCalendarPersistence:andCreateDefaultCalendarsIfNeeded:withSetupGroup:] + 207
+		3   EventKit                            0x00007fff8a858f2a -[EKCalendarStoreBackingStore _updatePersistenceAvailability] + 85
+		4   EventKit                            0x00007fff8a8587a2 -[EKCalendarStoreBackingStore initWithSourceFilters:includeEnabledDelegates:asyncWithCompletion:orWithExistingStore:] + 701
+		5   EventKit                            0x00007fff8a858495 -[EKCalendarStoreBackingStore initWithSourceFilters:includeEnabledDelegates:asyncWithCompletion:] + 60
+		6   EventKit                            0x00007fff8a842dd0 -[EKEventStore _newBackingStoreForType:includeEnabledDelegates:sourceFilters:asyncWithCompletion:] + 100
+		7   EventKit                            0x00007fff8a83cb8f -[EKEventStore initWithStoreType:includeEnabledDelegates:sourceFilters:asyncWithCompletion:orWithExistingStore:andBackingStore:] + 310
+		8   EventKit                            0x00007fff8a83ca3b -[EKEventStore initWithStoreType:includeEnabledDelegates:sourceFilters:asyncWithCompletion:] + 86
+		9   CalNCService                        0x000000010c2de3d2 main + 5794
+		10  libdispatch.dylib                   0x00007fff9052fc13 _dispatch_client_callout + 8
+		11  libdispatch.dylib                   0x00007fff9052fb26 dispatch_once_f + 117
+		12  CalNCService                        0x000000010c2de130 main + 5120
+		13  libdispatch.dylib                   0x00007fff9052fc13 _dispatch_client_callout + 8
+		14  libdispatch.dylib                   0x00007fff9052fb26 dispatch_once_f + 117
+		15  CalNCService                        0x000000010c2de06e main + 4926
+		16  CalNCService                        0x000000010c2dd21e main + 1262
+		17  CalNCService                        0x000000010c2dcef5 main + 453
+		18  CalNCService                        0x000000010c2dce09 main + 217
+		19  libdispatch.dylib                   0x00007fff9052fc13 _dispatch_client_callout + 8
+		20  libdispatch.dylib                   0x00007fff9052fb26 dispatch_once_f + 117
+		21  CalNCService                        0x000000010c2dcdde main + 174
+		22  CalNCService                        0x000000010c2dcd6e main + 62
+		23  libdyld.dylib                       0x00007fff8a3995c9 start + 1
+		24  ???                                 0x0000000000000001 0x0 + 1
+	)]
+Aug  6 09:31:06 iMac Finder[265] <Error>: assertion failed: 14E46: libxpc.dylib + 62495 [80D68997-17B9-32B6-A5FA-A218216415E5]: 0x89
+Aug  6 09:31:07 iMac PowerChime[316] <Error>: objc[316]: Class BUIPowerSource is implemented in both /System/Library/PrivateFrameworks/BatteryUIKit.framework/Versions/A/BatteryUIKit and /System/Library/CoreServices/PowerChime.app/Contents/MacOS/PowerChime. One of the two will be used. Which one is undefined.
+Aug  6 09:31:07 iMac apsctl[309] <Debug>: not launching apsd because it is already running
+Aug  6 09:31:07 iMac PowerChime[316] <Warning>: PowerChime: chime enabled by hardware: 0
+Aug  6 09:31:07 iMac PowerChime[316] <Warning>: PowerChime disabled - ChimeOnNoHardware default: 0
+Aug  6 09:31:07 iMac NotificationCenter[311] <Debug>: LSExceptions [0x6100000ba160] loaded
+Aug  6 09:31:07 iMac AOSHeartbeat[320] <Debug>: LSExceptions [0x7fa1d840a410] loaded
+Aug  6 09:31:07 iMac iconservicesagent[313] <Notice>: iconservicesagent launched.
+Aug  6 09:31:07 iMac Spotlight[327] <Debug>: LSExceptions [0x6000000b7160] loaded
+Aug  6 09:31:07 iMac Spotlight[327] <Warning>: spot: agent checkin
+Aug  6 09:31:07 iMac SystemUIServer[264] <Error>: Cannot find executable for CFBundle 0x7fc453c0efe0 </System/Library/CoreServices/Menu Extras/Clock.menu> (not loaded)
+Aug  6 09:31:07 iMac Keychain Circle Notification[308] <Debug>: LSExceptions [0x7f93ab51ee60] loaded
+Aug  6 09:31:07 iMac SystemUIServer[264] <Warning>: Could not find image named 'greenmarker'.
+Aug  6 09:31:07 iMac Keychain Circle Notification[308] <Warning>: Posted at launch: (
+	)
+Aug  6 09:31:07 iMac Keychain Circle Notification[308] <Warning>: Can't read state data (p=Preferences/com.apple.security.KCN.plist -- file:///Users/Guest/Library/, err=Error Domain=NSCocoaErrorDomain Code=260 "The file “com.apple.security.KCN.plist” couldn’t be opened because there is no such file." UserInfo=0x7f93ab455dc0 {NSFilePath=/Users/Guest/Library/Preferences/com.apple.security.KCN.plist, NSUnderlyingError=0x7f93ab455c80 "The operation couldn’t be completed. No such file or directory"})
+Aug  6 09:31:07 iMac secd[280] <Warning>:  SOSEngineCreate engine failed load state starting with nothing (null)
+Aug  6 09:31:07 iMac Keychain Circle Notification[308] <Warning>: rawStatus -1, #applicants 0, #peers 0, err=Error Domain=com.apple.security.sos.error Code=2 "The operation couldn’t be completed. (com.apple.security.sos.error error 2 - Remote error : The operation couldn‚Äôt be completed. (com.apple.security.sos.error error 2 - Public Key not available - failed to register before call))" UserInfo=0x7f93ab725160 {NSDescription=Remote error : The operation couldn‚Äôt be completed. (com.apple.security.sos.error error 2 - Public Key not available - failed to register before call)}
+Aug  6 09:31:07 iMac CloudKeychainProxy[335] <Notice>: start
+Aug  6 09:31:07 iMac Keychain Circle Notification[308] <Warning>: Can't read state data (p=Preferences/com.apple.security.KCN.plist -- file:///Users/Guest/Library/, err=Error Domain=NSCocoaErrorDomain Code=260 "The file “com.apple.security.KCN.plist” couldn’t be opened because there is no such file." UserInfo=0x7f93ab704f70 {NSFilePath=/Users/Guest/Library/Preferences/com.apple.security.KCN.plist, NSUnderlyingError=0x7f93ab71b5f0 "The operation couldn’t be completed. No such file or directory"})
+Aug  6 09:31:07 iMac CloudKeychainProxy[335] <Notice>: event -[UbiqitousKVSProxy init] <U----------> start
+Aug  6 09:31:07 iMac CloudKeychainProxy[335] <Notice>: event -[UbiqitousKVSProxy keybagDidUnlock] <UB--------->
+Aug  6 09:31:07 iMac cloudd[301] <Error>: Could not create primary backing account
+Aug  6 09:31:07 iMac CloudKeychainProxy[335] <Notice>: keytrace -[UbiqitousKVSProxy processKeyChangedEvent:] null:  pending: 
+Aug  6 09:31:07 iMac CloudKeychainProxy[335] <Notice>: keytrace -[UbiqitousKVSProxy processKeyChangedEvent:] null: >KeyParameters pending: 
+Aug  6 09:31:07 iMac CloudKeychainProxy[335] <Notice>: updates SOSCCProcessEnsurePeerRegistration enter SOSCCProcessEnsurePeerRegistration
+Aug  6 09:31:07 iMac CloudKeychainProxy[335] <Debug>: return=1
+Aug  6 09:31:07 iMac CloudKeychainProxy[335] <Error>:  __45-[UbiqitousKVSProxy doEnsurePeerRegistration]_block_invoke <UB---e-C---> ensurePeerRegistration called, success ((null))
+Aug  6 09:31:07 iMac Keychain Circle Notification[308] <Warning>: Can't read state data (p=Preferences/com.apple.security.KCN.plist -- file:///Users/Guest/Library/, err=Error Domain=NSCocoaErrorDomain Code=260 "The file “com.apple.security.KCN.plist” couldn’t be opened because there is no such file." UserInfo=0x7f93ab600560 {NSFilePath=/Users/Guest/Library/Preferences/com.apple.security.KCN.plist, NSUnderlyingError=0x7f93ab515440 "The operation couldn’t be completed. No such file or directory"})
+Aug  6 09:31:07 iMac Keychain Circle Notification[308] <Warning>: Checking validity of 0 notes
+Aug  6 09:31:07 iMac Keychain Circle Notification[308] <Warning>: writeToStorage plist={
+	    applcationDate = "0000-12-30 00:00:00 +0000";
+	    lastCircleStatus = "-1";
+	    lastWritten = "2015-08-06 16:31:07 +0000";
+	    pendingApplicationReminder = "4001-01-01 00:00:00 +0000";
+	    pendingApplicationReminderInterval = 172800;
+	}
+Aug  6 09:31:07 iMac iconservicesagent[313] <Debug>: CoreServices logging is enabled,
+Aug  6 09:31:07 iMac iconservicesagent[313] <Notice>: Starting service with cache path: /var/folders/zz/zyxvpxvq6csfxvn_n00000s4000069/C/com.apple.iconservices
+Aug  6 09:31:07 iMac SpotlightNetHelper[333] <Warning>: CGSConnectionByID: 0 is not a valid connection ID.
+Aug  6 09:31:07 iMac SpotlightNetHelper[333] <Warning>: Invalid Connection ID 0
+Aug  6 09:31:07 iMac CallHistorySyncHelper[294] <Warning>: [Warning] Services all disappeared, removing all dependent devices
+Aug  6 09:31:07 iMac WiFiAgent[321] <Debug>: LSExceptions [0x7febfac01510] loaded
+Aug  6 09:31:07 iMac askpermissiond[317] <Error>: objc[317]: Class FALogging is implemented in both /System/Library/PrivateFrameworks/FamilyCircle.framework/Versions/A/FamilyCircle and /System/Library/PrivateFrameworks/FamilyNotification.framework/Versions/A/FamilyNotification. One of the two will be used. Which one is undefined.
+Aug  6 09:31:07 iMac askpermissiond[317] <Notice>: StoreTransport: Resetting APS Connection using environment name production
+Aug  6 09:31:07 iMac DMProxy[341] <Warning>: AMBD Services: connection interrupted: com.apple.AmbientDisplayAgent (Connection interrupted)
+Aug  6 09:31:08 iMac storeaccountd[332] <Warning>: AccountServiceDelegate: Accepting new connection <NSXPCConnection: 0x7fda58601130> connection from pid 311 with interface <AccountServiceInterface: 0x7fda58602810> (PID 311)
+Aug  6 09:31:08 iMac storeaccountd[332] <Warning>: AccountServiceDelegate: Accepting new connection <NSXPCConnection: 0x7fda58604750> connection from pid 333 with interface <AccountServiceInterface: 0x7fda586067b0> (PID 333)
+Aug  6 09:31:08 iMac storeaccountd[332] <Notice>: 
+	
+	
+	--------------------------------------------------------- Begin --
+	
+	   System Version 10.10.4 (Build 14E46)
+	   "storeaccountd" Version ? (?)
+	
+	-------------------------------------------------------------------
+Aug  6 09:31:08 iMac storeaccountd[332] <Critical>: BagLoadOperation: Attempting to load bag (type=1) from https://init.itunes.apple.com/bag.xml?ix=5
+Aug  6 09:31:08 iMac storeaccountd[332] <Critical>: ISStoreURLOperation: Starting URL operation with url=https://init.itunes.apple.com/bag.xml?ix=5 / bagKey=(null)
+Aug  6 09:31:08 iMac storeaccountd[332] <Critical>: -[ISStoreURLOperation _runURLOperation]: _addStandardQueryParametersForURL: https://init.itunes.apple.com/bag.xml?ix=5
+Aug  6 09:31:08 iMac WiFiAgent[321] <Warning>: [NO client logger] <Sep  9 2014 16:12:26> WIFICLOUDSYNC WiFiCloudSyncEngineCreate: created...
+Aug  6 09:31:08 iMac WiFiAgent[321] <Warning>: [NO client logger] <Sep  9 2014 16:12:26> WIFICLOUDSYNC WiFiCloudSyncEngineRegisterCallbacks: WiFiCloudSyncEngineCallbacks version - 0, bundle id - com.apple.wifi.WiFiAgent
+Aug  6 09:31:09 iMac loginwindow[88] <Debug>: LSExceptions [0x7fa928606140] unloaded
+Aug  6 09:31:09 iMac Spotlight[327] <Warning>: [com.apple.calendar.agentLink.xpc] [CalAgentLink set exported object called twice (
+		0   CalendarAgentLink                   0x00007fff94e40e1c -[CalAgentLink setExportedObject:] + 128
+		1   CalendarPersistence                 0x00007fff950d3bd3 +[CalPersistence _startCoreDataXPCServer:] + 263
+		2   CalendarPersistence                 0x00007fff94efe883 +[CalPersistence setupCalendarPersistence:andCreateDefaultCalendarsIfNeeded:withSetupGroup:] + 207
+		3   EventKit                            0x00007fff8a858f2a -[EKCalendarStoreBackingStore _updatePersistenceAvailability] + 85
+		4   EventKit                            0x00007fff8a8587a2 -[EKCalendarStoreBackingStore initWithSourceFilters:includeEnabledDelegates:asyncWithCompletion:orWithExistingStore:] + 701
+		5   EventKit                            0x00007fff8a858495 -[EKCalendarStoreBackingStore initWithSourceFilters:includeEnabledDelegates:asyncWithCompletion:] + 60
+		6   EventKit                            0x00007fff8a842dd0 -[EKEventStore _newBackingStoreForType:includeEnabledDelegates:sourceFilters:asyncWithCompletion:] + 100
+		7   EventKit                            0x00007fff8a83cb8f -[EKEventStore initWithStoreType:includeEnabledDelegates:sourceFilters:asyncWithCompletion:orWithExistingStore:andBackingStore:] + 310
+		8   EventKit                            0x00007fff8a83ca3b -[EKEventStore initWithStoreType:includeEnabledDelegates:sourceFilters:asyncWithCompletion:] + 86
+		9   Spotlight                           0x000000010d33f9c6 Spotlight + 346566
+		10  Spotlight                           0x000000010d33fac9 Spotlight + 346825
+		11  libdispatch.dylib                   0x00007fff9052fc13 _dispatch_client_callout + 8
+		12  libdispatch.dylib                   0x00007fff9052fb26 dispatch_once_f + 117
+		13  Spotlight                           0x000000010d33fa9e Spotlight + 346782
+		14  Spotlight                           0x000000010d337444 Spotlight + 312388
+		15  libdispatch.dylib                   0x00007fff90534323 _dispatch_call_block_and_release + 12
+		16  libdispatch.dylib                   0x00007fff9052fc13 _dispatch_client_callout + 8
+		17  libdispatch.dylib                   0x00007fff9053288f _dispatch_root_queue_drain + 935
+		18  libdispatch.dylib                   0x00007fff90540fe4 _dispatch_worker_thread3 + 91
+		19  libsystem_pthread.dylib             0x00007fff85cb7637 _pthread_wqthread + 729
+		20  libsystem_pthread.dylib             0x00007fff85cb540d start_wqthread + 13
+	)]
+Aug  6 09:31:11 iMac ARDAgent[251] <Debug>: LSExceptions [0x7fde1941a200] unloaded
+Aug  6 09:31:12 iMac SystemUIServer[264] <Debug>: LSExceptions [0x6000000a82e0] unloaded
+Aug  6 09:31:12 iMac Dock[262] <Debug>: LSExceptions [0x6080002a30c0] unloaded
+Aug  6 09:31:12 iMac storeaccountd[332] <Warning>: ADI: {
+	    "Cache-Control" = "max-age=0, no-cache, no-store";
+	    Connection = "keep-alive";
+	    "Content-Encoding" = gzip;
+	    "Content-Length" = 21560;
+	    "Content-Type" = "text/xml; charset=UTF-8";
+	    Date = "Thu, 06 Aug 2015 16:31:12 GMT";
+	    Expires = "Thu, 06 Aug 2015 16:31:12 GMT";
+	    "Last-Modified" = "Thu, 06 Aug 2015 16:31:12 GMT";
+	    Pragma = "no-cache";
+	    Server = "ATS/4.1.0";
+	    "Strict-Transport-Security" = "max-age=31536000";
+	    Vary = "Accept-Encoding, X-Apple-Store-Front, Cookie, User-Agent";
+	    "X-Apple-ATS-Cache-Key" = "/init.itunes.apple.com/80/WebObjects/MZInit.woa/wa/initiateSession/MacAppStore/2.0%20/https?ix=5";
+	    "X-Apple-Partner" = "origin.0";
+	    "apple-timing-app" = "51 ms";
+	    "x-apple-application-instance" = 3909;
+	    "x-apple-application-site" = NWK;
+	    "x-apple-jingle-correlation-key" = PV2YEP2DFUTKDSROJ4U2USM6IA;
+	    "x-apple-lokamai-no-cache" = true;
+	    "x-apple-max-age" = 0;
+	    "x-apple-orig-url" = "https://init.itunes.apple.com/WebObjects/MZInit.woa/wa/initiateSession?ix=5&userAgentCacheKey=MacAppStore%2f2.0%20";
+	    "x-apple-request-store-front" = "<null>";
+	    "x-apple-translated-wo-url" = "/WebObjects/MZInit.woa/wa/initiateSession?ix=5&userAgentCacheKey=MacAppStore%2f2.0%20";
+	    "x-set-apple-store-front" = "143441-1,13";
+	    "x-webobjects-loadaverage" = 0;
+	}
+Aug  6 09:31:12 iMac storeaccountd[332] <Critical>: BagController: Asked to invalidate all bags
+Aug  6 09:31:13 iMac storeaccountd[332] <Critical>: Bag: Error writing persisted bag to file:///Users/Guest/Library/Caches/com.apple.appstore/ProductionBag - The folder “ProductionBag” doesn’t exist.
+Aug  6 09:31:13 iMac storeaccountd[332] <Critical>: Bag: Successfully updated bag type 1 from https://init.itunes.apple.com/bag.xml?ix=5 valid until 2015-08-07 11:31:12 +0000
+Aug  6 09:31:13 iMac storeaccountd[332] <Critical>: BagLoadOperation: Finished loading bag type 1
+Aug  6 09:31:13 iMac storeaccountd[332] <Critical>: ISStoreURLOperation: Starting URL operation with url=https://xp.apple.com/register / bagKey=(null)
+Aug  6 09:31:13 iMac storeaccountd[332] <Critical>: -[ISStoreURLOperation _runURLOperation]: _addStandardQueryParametersForURL: https://xp.apple.com/register
+Aug  6 09:31:13 iMac AirPlayUIAgent[273] <Debug>: LSExceptions [0x6080000a21c0] unloaded
+Aug  6 09:31:13 iMac Finder[265] <Debug>: LSExceptions [0x6100000b1b80] unloaded
+Aug  6 09:31:13 iMac cloudpaird[318] <Warning>: [Warning] Services all disappeared, removing all dependent devices
+Aug  6 09:31:13 iMac NotificationCenter[311] <Warning>: Layout still needs update after calling -[NSView layout].  NSView or one of its superclasses may have overridden -layout without calling super. Or, something may have dirtied layout in the middle of updating it.  Both are programming errors in Cocoa Autolayout.  The former is pretty likely to arise if some pre-Cocoa Autolayout class had a method called layout, but it should be fixed.
+Aug  6 09:31:13 iMac CalendarAgent[252] <Warning>: Could not replace account with identifier: _local
+Aug  6 09:31:13 iMac CalNCService[291] <Warning>: Could not replace account with identifier: _local
+Aug  6 09:31:13 iMac callservicesd[283] <Warning>: Could not replace account with identifier: _local
+Aug  6 09:31:13 iMac GoogleSoftwareUpdateAgent[310] <Debug>: LSExceptions [0x3069e0] loaded
+Aug  6 09:31:14 iMac Dock[262] <Debug>: LSExceptions [0x6080002aa440] loaded
+Aug  6 09:31:14 iMac Spotlight[327] <Warning>: applications query - started
+Aug  6 09:31:14 iMac Spotlight[327] <Warning>: applications query - finished in 0.0013 seconds
+Aug  6 09:31:14 iMac Terminal[347] <Debug>: LSExceptions [0x6100000a6720] loaded
+Aug  6 09:31:14 iMac pkd[276] <Warning>: enabling pid=311 for plug-in com.apple.ncplugin.stocks(1.0) A84D1580-FB63-49D8-9CE7-F2F3749F5558 /System/Library/Frameworks/NotificationCenter.framework/PlugIns/com.apple.ncplugin.stocks.appex
+Aug  6 09:31:14 iMac pkd[276] <Warning>: enabling pid=311 for plug-in com.apple.RemindersNC(1.0) 1C41D30C-7A26-462E-B689-0EDB94BA524D /Applications/Reminders.app/Contents/PlugIns/com.apple.RemindersNC.appex
+Aug  6 09:31:14 iMac pkd[276] <Warning>: enabling pid=311 for plug-in com.apple.ncplugin.weather(1.0) D675B475-1600-4CD5-9F49-625DEC9F8EAF /System/Library/Frameworks/NotificationCenter.framework/PlugIns/com.apple.ncplugin.weather.appex
+Aug  6 09:31:14 iMac pkd[276] <Warning>: enabling pid=311 for plug-in com.apple.iCal.CalendarNC(1.0) 3D70C478-0767-4498-BEFA-31C2192BECF3 /Applications/Calendar.app/Contents/PlugIns/com.apple.iCal.CalendarNC.appex
+Aug  6 09:31:14 iMac storeaccountd[332] <Warning>: ADI: {
+	    "Access-Control-Allow-Origin" = "*";
+	    "Cache-Control" = "private, max-age=60";
+	    Connection = "keep-alive";
+	    "Content-Length" = 135;
+	    "Content-Type" = "application/json; charset=UTF-8";
+	    Date = "Thu, 06 Aug 2015 16:31:14 GMT";
+	    Expires = "Thu, 06 Aug 2015 16:32:14 GMT";
+	    "Set-Cookie" = "xp_ci=3zK0JgHzMjz4hpz9V6z1MujfWh6k; version=\"1\"; max-age=15552000; expires=Tue, 02-Feb-2016 16:31:14 GMT; path=/; domain=.apple.com";
+	    "Strict-Transport-Security" = "max-age=31536000";
+	    Vary = "X-Apple-Store-Front,X-Dsid,Cookie";
+	    "access-control-allow-credentials" = true;
+	    "apple-timing-app" = "1 ms";
+	    "x-apple-application-instance" = 10108;
+	    "x-apple-application-site" = NWK;
+	    "x-apple-jingle-correlation-key" = QOQTNH2247X6BPR36V35IUOUHE;
+	    "x-apple-set-cookie" = "xp_ci=3zK0JgHzMjz4hpz9V6z1MujfWh6k; version=\"1\"; max-age=15552000; expires=Tue, 02-Feb-2016 16:31:14 GMT; path=/; domain=.apple.com";
+	    "x-webobjects-loadaverage" = 1;
+	}
+Aug  6 09:31:14 iMac CalendarAgent[252] <Warning>: Could not replace account with identifier: _local
+Aug  6 09:31:14 iMac sharingd[272] <Warning>: Could not replace account with identifier: _local
+Aug  6 09:31:14 --- last message repeated 1 time ---
+Aug  6 09:31:14 iMac callservicesd[283] <Warning>: Could not replace account with identifier: _local
+Aug  6 09:31:14 iMac CalNCService[291] <Warning>: Could not replace account with identifier: _local
+Aug  6 09:31:14 --- last message repeated 1 time ---
+Aug  6 09:31:14 iMac AddressBookSourceSync[345] <Warning>: Could not replace account with identifier: _local
+Aug  6 09:31:14 --- last message repeated 1 time ---
+Aug  6 09:31:14 iMac soagent[324] <Warning>: Could not replace account with identifier: _local
+Aug  6 09:31:16 --- last message repeated 2 times ---
+Aug  6 09:31:16 iMac com.apple.RemindersNC[350] <Debug>: LSExceptions [0x6100002a8ee0] loaded
+Aug  6 09:31:17 iMac AOSHeartbeat[320] <Debug>: LSExceptions [0x7fa1d840a410] unloaded
+Aug  6 09:31:17 iMac Spotlight[327] <Debug>: LSExceptions [0x6000000b7160] unloaded
+Aug  6 09:31:18 iMac Keychain Circle Notification[308] <Debug>: LSExceptions [0x7f93ab51ee60] unloaded
+Aug  6 09:31:18 iMac WiFiAgent[321] <Debug>: LSExceptions [0x7febfac01510] unloaded
+Aug  6 09:31:18 iMac findNames[356] <Debug>: LSExceptions [0x7fca924068c0] loaded
+Aug  6 09:31:18 iMac com.apple.iCal.CalendarNC[352] <Debug>: LSExceptions [0x6000000b7a00] loaded
+Aug  6 09:31:18 iMac com.apple.RemindersNC[350] <Warning>: [com.apple.calendar.agentLink.xpc] [CalAgentLink set exported object called twice (
+		0   CalendarAgentLink                   0x00007fff94e40e1c -[CalAgentLink setExportedObject:] + 128
+		1   CalendarPersistence                 0x00007fff950d3bd3 +[CalPersistence _startCoreDataXPCServer:] + 263
+		2   CalendarPersistence                 0x00007fff950d45e5 __87+[CalPersistence asyncConnectToPersistenceWithClientXPCWaitingOnGroup:completionBlock:]_block_invoke344 + 130
+		3   libdispatch.dylib                   0x00007fff90534323 _dispatch_call_block_and_release + 12
+		4   libdispatch.dylib                   0x00007fff9052fc13 _dispatch_client_callout + 8
+		5   libdispatch.dylib                   0x00007fff9053699e _dispatch_async_redirect_invoke + 650
+		6   libdispatch.dylib                   0x00007fff9052fc13 _dispatch_client_callout + 8
+		7   libdispatch.dylib                   0x00007fff9053288f _dispatch_root_queue_drain + 935
+		8   libdispatch.dylib                   0x00007fff90540fe4 _dispatch_worker_thread3 + 91
+		9   libsystem_pthread.dylib             0x00007fff85cb7637 _pthread_wqthread + 729
+		10  libsystem_pthread.dylib             0x00007fff85cb540d start_wqthread + 13
+	)]
+Aug  6 09:31:18 iMac com.apple.iCal.CalendarNC[352] <Warning>: [com.apple.calendar.agentLink.xpc] [CalAgentLink set exported object called twice (
+		0   CalendarAgentLink                   0x00007fff94e40e1c -[CalAgentLink setExportedObject:] + 128
+		1   CalendarPersistence                 0x00007fff950d3bd3 +[CalPersistence _startCoreDataXPCServer:] + 263
+		2   CalendarPersistence                 0x00007fff950d45e5 __87+[CalPersistence asyncConnectToPersistenceWithClientXPCWaitingOnGroup:completionBlock:]_block_invoke344 + 130
+		3   libdispatch.dylib                   0x00007fff90534323 _dispatch_call_block_and_release + 12
+		4   libdispatch.dylib                   0x00007fff9052fc13 _dispatch_client_callout + 8
+		5   libdispatch.dylib                   0x00007fff9053699e _dispatch_async_redirect_invoke + 650
+		6   libdispatch.dylib                   0x00007fff9052fc13 _dispatch_client_callout + 8
+		7   libdispatch.dylib                   0x00007fff9053288f _dispatch_root_queue_drain + 935
+		8   libdispatch.dylib                   0x00007fff90540fe4 _dispatch_worker_thread3 + 91
+		9   libsystem_pthread.dylib             0x00007fff85cb7637 _pthread_wqthread + 729
+		10  libsystem_pthread.dylib             0x00007fff85cb540d start_wqthread + 13
+	)]
+Aug  6 09:31:18 iMac com.apple.ncplugin.weather[351] <Warning>: *** -[NSKeyedUnarchiver initForReadingWithData:]: data is NULL
+Aug  6 09:31:19 iMac NotificationCenter[311] <Warning>: plugin com.apple.RemindersNC interrupted
+Aug  6 09:31:19 iMac NotificationCenter[311] <Warning>: plugin com.apple.iCal.CalendarNC interrupted
+Aug  6 09:31:19 iMac NotificationCenter[311] <Warning>: plugin com.apple.ncplugin.weather interrupted
+Aug  6 09:31:19 iMac softwareupdate_notify_agent[362] <Debug>: Running for LoginDone
+Aug  6 09:31:19 iMac softwareupdate_notify_agent[362] <Debug>: AssertionMgr: Take com.apple.softwareupdate.NotifyAgentAssertion assertion with type BackgroundTask for pid 362
+Aug  6 09:31:19 iMac softwareupdate_notify_agent[362] <Debug>: Notifying with params: {
+	    UpdateNotificationsOnly = 1;
+	}
+Aug  6 09:31:19 iMac softwareupdate_notify_agent[362] <Debug>: appstoreupdateagent notified
+Aug  6 09:31:19 iMac softwareupdate_notify_agent[362] <Debug>: AssertionMgr: Cancel com.apple.softwareupdate.NotifyAgentAssertion assertion for pid 362
+Aug  6 09:31:19 iMac appstoreupdateagent[365] <Notice>: 
+	
+	
+	--------------------------------------------------------- Begin --
+	
+	   System Version 10.10.4 (Build 14E46)
+	   "appstoreupdateagent" Version ? (?)
+	
+	-------------------------------------------------------------------
+Aug  6 09:31:19 iMac appstoreupdateagent[365] <Critical>: appstoreupdateagent: Staring up...
+Aug  6 09:31:19 iMac appstoreupdateagent[365] <Critical>: appstoreupdateagent: creating XPC listener
+Aug  6 09:31:19 iMac appstoreupdateagent[365] <Critical>: appstoreupdateagent: resuming connection on startup
+Aug  6 09:31:19 iMac appstoreupdateagent[365] <Critical>: appstoreupdateagent: message send is pending, calling dispatch_main
+Aug  6 09:31:19 iMac appstoreupdateagent[365] <Critical>: appstoreupdateagent: received XPC_TYPE_CONNECTION event on listener
+Aug  6 09:31:19 iMac appstoreupdateagent[365] <Critical>: appstoreupdateagent: resuming connection after event
+Aug  6 09:31:19 iMac appstoreupdateagent[365] <Critical>: appstoreupdateagent: received XPC_TYPE_DICTIONARY event on connection: <dictionary: 0x7fa0fbf06690> { count = 1, contents =
+		"UpdateNotificationsOnly" => <bool: 0x7fff77f98a28>: true
+	}
+Aug  6 09:31:20 iMac AppleIDAuthAgent[314] <Warning>: AppleIdAuth URL: https://identity.apple.com/dsservices/dsxmlrpc
+Aug  6 09:31:20 iMac com.apple.InputMethodKit.UserDictionary[364] <Warning>: Saving observed local peer identity to LocalPeerIdentityCurrent
+Aug  6 09:31:21 iMac com.apple.dock.extra[370] <Debug>: LSExceptions [0x6000000ae640] loaded
+Aug  6 09:31:21 iMac NotificationCenter[311] <Warning>: plugin com.apple.ncplugin.stocks interrupted
+Aug  6 09:31:22 iMac Google Chrome[359] <Debug>: LSExceptions [0x6100000a63c0] loaded
+Aug  6 09:31:22 iMac CoreServicesUIAgent[376] <Debug>: LSExceptions [0x7fe10370f2d0] loaded
+Aug  6 09:31:24 iMac Terminal[347] <Debug>: LSExceptions [0x6100000a6720] unloaded
+Aug  6 09:31:24 iMac NotificationCenter[311] <Debug>: LSExceptions [0x6100000ba160] unloaded
+Aug  6 09:31:24 iMac storeassetd[372] <Warning>: AssetServiceDelegate: Accepting new connection <NSXPCConnection: 0x7fc530c038b0> connection from pid 366 with interface <AssetServiceInterface: 0x7fc530c04c50> (PID 366)
+Aug  6 09:31:25 iMac storeassetd[372] <Notice>: 
+	
+	
+	--------------------------------------------------------- Begin --
+	
+	   System Version 10.10.4 (Build 14E46)
+	   "storeassetd" Version ? (?)
+	
+	-------------------------------------------------------------------
+Aug  6 09:31:25 iMac storeassetd[372] <Critical>: UpdateController: updateNotificationsOnly=true, setting updateNotificationsOnly=YES on <UpdateOperation: 0x7fc530d122e0>{name = '(null)'}
+Aug  6 09:31:25 iMac storeassetd[372] <Warning>: addOperation <UpdateOperation: 0x7fc530d122e0>{name = '(null)'}
+Aug  6 09:31:25 iMac Google Chrome[359] <Warning>: stat on /Users/Guest/Library/Application Support/Google/Chrome/Default/Bookmarks: No such file or directory
+Aug  6 09:31:26 iMac Dock[262] <Debug>: LSExceptions [0x6080002aa440] unloaded
+Aug  6 09:31:26 iMac LaterAgent[383] <Debug>: LSExceptions [0x7fa03b50bd30] loaded
+Aug  6 09:31:26 iMac Google Chrome Helper[385] <Debug>: LSExceptions [0x7ff009c09a60] loaded
+Aug  6 09:31:26 iMac storeassetd[372] <Critical>: UpdateOperation: Asserted BackgroundTask power assertion (returned 0)
+Aug  6 09:31:26 iMac storeassetd[372] <Critical>: <UpdateOperation: 0x7fc530d122e0>{name = '(null)'}: Did not check for updates, stage or auto-update due to self.shouldUpdateNotificationsOnly=1 on <UpdateOperation: 0x7fc530d122e0>{name = '(null)'}
+Aug  6 09:31:26 iMac Dock[262] <Debug>: LSExceptions [0x6100002a0de0] loaded
+Aug  6 09:31:26 iMac storeassetd[372] <Critical>: WhatsNewController: Not arming because the notification has already been posted
+Aug  6 09:31:27 iMac storeassetd[372] <Critical>: UpdateOperation: softwareUpdateDidFinishBackgroundScanWithMessage: removing all critical update notification (except post-install) due to critical update count being 0
+Aug  6 09:31:27 iMac storeassetd[372] <Critical>: UpdateOperation: Removing all updates available notifications because the badge count is 0
+Aug  6 09:31:27 iMac storeassetd[372] <Critical>: UpdateOperation: Message tracing com.apple.MacAppStore.autoupdate.operation_run - {
+	    "darkwake_thermal_emergency_count" = 0;
+	    "elapsed_time" = 0;
+	    "is_time_to_autoupdate_and_notify" = yes;
+	    "is_time_to_stage" = yes;
+	    "now_is_later" = no;
+	    "os_updates_to_install_on_restart" = "";
+	    result = pass;
+	    "user_initiated" = no;
+	    "will_restart" = no;
+	}
+Aug  6 09:31:27 iMac storeassetd[372] <Critical>: SoftwareMapLegacyAppSource: Observing bag to check for legacy conversion enabling key
+Aug  6 09:31:27 iMac storeassetd[372] <Critical>: UpdateOperation: Released BackgroundTask power assertion (returned 0)
+Aug  6 09:31:27 iMac storeassetd[372] <Critical>: SoftwareMapLaunchPadSource: Import of LaunchPad app list after change took 0.0050 seconds
+Aug  6 09:31:27 iMac storeaccountd[332] <Warning>: AccountServiceDelegate: Accepting new connection <NSXPCConnection: 0x7fda5851dba0> connection from pid 372 with interface <AccountServiceInterface: 0x7fda58524160> (PID 372)
+Aug  6 09:31:27 iMac storeassetd[372] <Critical>: SoftwareMapLegacyAppSource: Bag is invalid : legacy conversion is disabled
+Aug  6 09:31:27 iMac storeassetd[372] <Critical>: SoftwareMapSpotlightSource: _queryDidFinish
+Aug  6 09:31:27 iMac storeassetd[372] <Critical>: SoftwareMapSpotlightSource: After spotlight initial import and sync the spotlight map is: {
+	}
+Aug  6 09:31:27 iMac storeassetd[372] <Critical>: SoftwareMapSpotlightSource: MDQuery initial load took 0.151220 seconds to load 0 apps from 0 metadata records
+Aug  6 09:31:27 iMac storeassetd[372] <Critical>: SoftwareMap: Software map rebuild took 0.4458 seconds for 0 records and produced: {
+	}
+Aug  6 09:31:28 iMac GoogleSoftwareUpdateAgent[310] <Debug>: LSExceptions [0x3069e0] unloaded
+Aug  6 09:31:30 iMac Google Chrome Helper[397] <Debug>: LSExceptions [0x7f82a9d164c0] loaded
+Aug  6 09:31:30 iMac Google Chrome Helper[395] <Debug>: LSExceptions [0x7f8580c15ca0] loaded
+Aug  6 09:31:30 iMac Google Chrome Helper[396] <Debug>: LSExceptions [0x7ff9b9c13010] loaded
+Aug  6 09:31:30 iMac Google Chrome Helper[393] <Debug>: LSExceptions [0x7fee5360ad30] loaded
+Aug  6 09:31:30 iMac Google Chrome Helper[394] <Debug>: LSExceptions [0x7f9123e0a1c0] loaded
+Aug  6 09:31:30 iMac Google Chrome Helper[398] <Debug>: LSExceptions [0x7fb852d2c730] loaded
+Aug  6 09:31:31 iMac com.apple.dock.extra[370] <Debug>: LSExceptions [0x6000000ae640] unloaded
+Aug  6 09:31:31 iMac CalendarAgent[252] <Warning>: Could not replace account with identifier: _local
+Aug  6 09:31:31 iMac sharingd[272] <Warning>: Could not replace account with identifier: _local
+Aug  6 09:31:31 iMac CalendarAgent[252] <Warning>: Could not replace account with identifier: _local
+Aug  6 09:31:31 iMac sharingd[272] <Warning>: Could not replace account with identifier: _local
+Aug  6 09:31:31 iMac soagent[324] <Warning>: Could not replace account with identifier: _local
+Aug  6 09:31:31 iMac AddressBookSourceSync[345] <Warning>: Could not replace account with identifier: _local
+Aug  6 09:31:31 iMac callservicesd[283] <Warning>: Could not replace account with identifier: _local
+Aug  6 09:31:31 iMac AddressBookSourceSync[345] <Warning>: Could not replace account with identifier: _local
+Aug  6 09:31:31 iMac callservicesd[283] <Warning>: Could not replace account with identifier: _local
+Aug  6 09:31:31 iMac CalNCService[291] <Warning>: Could not replace account with identifier: _local
+Aug  6 09:31:31 iMac TMHelperAgent[416] <Debug>: LSExceptions [0x7fc0d36061b0] loaded
+Aug  6 09:31:32 iMac storedownloadd[386] <Warning>: DownloadServiceDelegate: Accepting new connection <NSXPCConnection: 0x7fdcc1c017b0> connection from pid 372 with interface <DownloadServiceInterface: 0x7fdcc1c032c0> (PID 372)
+Aug  6 09:31:32 iMac storedownloadd[386] <Warning>: DownloadServiceDelegate: Accepting new connection <NSXPCConnection: 0x7fdcc1e11e90> connection from pid 372 with interface <DownloadServiceInterface: 0x7fdcc1e2b680> (PID 372)
+Aug  6 09:31:32 iMac storedownloadd[386] <Notice>: 
+	
+	
+	--------------------------------------------------------- Begin --
+	
+	   System Version 10.10.4 (Build 14E46)
+	   "storedownloadd" Version ? (?)
+	
+	-------------------------------------------------------------------
+Aug  6 09:31:32 iMac storedownloadd[386] <Critical>: DownloadQueue: Setting downloads to paused so user can resume.
+Aug  6 09:31:33 iMac storeassetd[372] <Warning>: AssetServiceDelegate: Accepting new connection <NSXPCConnection: 0x7fc530e0b4e0> connection from pid 386 with interface <AssetServiceInterface: 0x7fc530e01540> (PID 386)
+Aug  6 09:31:33 iMac Google Chrome[359] <Debug>: LSExceptions [0x6100000a63c0] unloaded
+Aug  6 09:31:33 iMac CoreServicesUIAgent[376] <Debug>: LSExceptions [0x7fe10370f2d0] unloaded
+Aug  6 09:31:33 iMac Atom[387] <Debug>: LSExceptions [0x6080002a40e0] loaded
+Aug  6 09:31:33 iMac Google Chrome Helper[435] <Debug>: LSExceptions [0x7fb8e9441ba0] loaded
+Aug  6 09:31:33 iMac Atom Helper[436] <Debug>: LSExceptions [0x7fd919f00300] loaded
+Aug  6 09:31:34 iMac Atom[387] <Warning>: App load time: 1116ms
+Aug  6 09:31:36 iMac Google Chrome Helper[385] <Debug>: LSExceptions [0x7ff009c09a60] unloaded
+Aug  6 09:31:36 iMac LaterAgent[383] <Debug>: LSExceptions [0x7fa03b50bd30] unloaded
+Aug  6 09:31:36 iMac Dock[262] <Debug>: LSExceptions [0x6100002a0de0] unloaded
+Aug  6 09:31:36 iMac GoogleSoftwareUpdateAgent[452] <Debug>: LSExceptions [0x406760] loaded
+Aug  6 09:31:41 iMac Google Chrome Helper[397] <Debug>: LSExceptions [0x7f82a9d164c0] unloaded
+Aug  6 09:31:41 iMac Google Chrome Helper[394] <Debug>: LSExceptions [0x7f9123e0a1c0] unloaded
+Aug  6 09:31:41 iMac Google Chrome Helper[395] <Debug>: LSExceptions [0x7f8580c15ca0] unloaded
+Aug  6 09:31:41 iMac Google Chrome Helper[393] <Debug>: LSExceptions [0x7fee5360ad30] unloaded
+Aug  6 09:31:41 iMac Google Chrome Helper[398] <Debug>: LSExceptions [0x7fb852d2c730] unloaded
+Aug  6 09:31:41 iMac Google Chrome Helper[396] <Debug>: LSExceptions [0x7ff9b9c13010] unloaded
+Aug  6 09:31:42 iMac TMHelperAgent[503] <Debug>: LSExceptions [0x7f8362c301a0] loaded
+Aug  6 09:31:44 iMac Atom[387] <Debug>: LSExceptions [0x6080002a40e0] unloaded
+Aug  6 09:31:44 iMac Atom Helper[436] <Debug>: LSExceptions [0x7fd919f00300] unloaded
+Aug  6 09:31:44 iMac Google Chrome Helper[435] <Debug>: LSExceptions [0x7fb8e9441ba0] unloaded
+Aug  6 09:31:45 iMac Google Chrome Helper[614] <Debug>: LSExceptions [0x7fbe20408dd0] loaded
+Aug  6 09:31:47 iMac GoogleSoftwareUpdateAgent[452] <Debug>: LSExceptions [0x406760] unloaded
+Aug  6 09:31:53 iMac Finder[265] <Debug>: LSExceptions [0x6000000a99c0] loaded
+Aug  6 09:31:54 iMac Google Chrome Helper[2703] <Debug>: LSExceptions [0x7feec041d210] loaded
+Aug  6 09:31:55 iMac mdworker[613] <Error>: (ImportBailout.Error:1325) Asked to exit for Diskarb
+Aug  6 09:31:55 iMac GoogleSoftwareUpdateAgent[452] <Error>: 2015-08-06 09:31:55.602 GoogleSoftwareUpdateAgent[452/0xb0219000] [lvl=3] -[KSAgentApp(KeystoneDelegate) updateEngineFinishedUpdate:errors:wantsReboot:] Finished with com.google.Chrome : errors 0, should reboot: NO
+Aug  6 09:31:55 iMac Google Chrome Helper[614] <Debug>: LSExceptions [0x7fbe20408dd0] unloaded
+Aug  6 09:32:03 iMac Finder[265] <Debug>: LSExceptions [0x6000000a99c0] unloaded
+Aug  6 09:32:04 iMac Google Chrome Helper[2728] <Debug>: LSExceptions [0x7fd6a3c47a90] loaded
+Aug  6 09:32:08 iMac mdworker[2711] <Error>: (ImportBailout.Error:1325) Asked to exit for Diskarb
+Aug  6 09:32:08 iMac mdworker[2710] <Error>: (ImportBailout.Error:1325) Asked to exit for Diskarb
+Aug  6 09:32:08 iMac mdworker[2716] <Error>: (ImportBailout.Error:1325) Asked to exit for Diskarb
+Aug  6 09:32:08 iMac mdworker[2715] <Error>: (ImportBailout.Error:1325) Asked to exit for Diskarb
+Aug  6 09:32:08 iMac mdworker[2718] <Error>: (ImportBailout.Error:1325) Asked to exit for Diskarb
+Aug  6 09:32:08 iMac mdworker[2733] <Error>: (ImportBailout.Error:1325) Asked to exit for Diskarb
+Aug  6 09:32:08 iMac mdworker[2732] <Error>: (ImportBailout.Error:1325) Asked to exit for Diskarb
+Aug  6 09:32:14 iMac Google Chrome Helper[2728] <Debug>: LSExceptions [0x7fd6a3c47a90] unloaded
+Aug  6 09:33:53 iMac Google Chrome Helper[2879] <Debug>: LSExceptions [0x7fe9fa642ee0] loaded
+Aug  6 09:33:56 iMac Google Chrome Helper[2880] <Debug>: LSExceptions [0x7fc76ad366e0] loaded
+Aug  6 09:33:58 iMac Google Chrome Helper[2881] <Debug>: LSExceptions [0x7fe038c34c80] loaded
+Aug  6 09:34:04 iMac Google Chrome Helper[2879] <Debug>: LSExceptions [0x7fe9fa642ee0] unloaded
+Aug  6 09:34:09 iMac Google Chrome Helper[2881] <Debug>: LSExceptions [0x7fe038c34c80] unloaded
+Aug  6 09:36:05 iMac Atom[387] <Warning>: Download completed to: file:///Users/Guest/Library/Application%20Support/com.github.atom.ShipIt/update.2irV0fn/download
+Aug  6 09:36:06 iMac Atom[387] <Debug>: LSExceptions [0x6180002ac000] loaded
+Aug  6 09:36:16 iMac Atom[387] <Debug>: LSExceptions [0x6180002ac000] unloaded
